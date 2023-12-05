@@ -1,4 +1,4 @@
-<img src="torison interactive3-01.png" alt="" style="padding: 0 0 2rem 0">
+
 
 <p>
     

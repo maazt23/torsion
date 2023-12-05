@@ -1,8 +1,14 @@
 
+<script>
+    import Blogdisplay from "../../lib/components/blogdisplay.svelte";
+</script>
 
 <div class="blograil">
-    <a href="blog/1"> Blog 1</a>
-    <a href="blog/2"> Blog 2</a>
+    <Blogdisplay image="favicon.png" description="My First Blog" location="/blog/1"/>
+    <Blogdisplay image="favicon.png" description="My Second Blog" location="/blog/2"/>
+    <Blogdisplay image="favicon.png" description="My Third Blog" location="/blog/3"/>
+    <Blogdisplay image="favicon.png" description="My Fourth Blog" location="/blog/4"/>
+
 </div>
 
 
@@ -12,7 +18,7 @@
 
         display: flex;
         flex-flow: column wrap;
-        max-width: 60%;
+        /* max-width: 60%; */
 
     }
 </style>
