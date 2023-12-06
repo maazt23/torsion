@@ -21,4 +21,8 @@ Join us on this exciting journey as we redefine the boundaries of indie gaming a
     img {
         max-width: 20rem;
     }
+
+    p{
+        text-align: center;
+    }
 </style>
