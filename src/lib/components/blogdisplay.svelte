@@ -8,7 +8,7 @@
 <img src={image} alt="Thumbnail">
 <p>{description}</p>
 </a>
-
+<!--  -->
 <style>
     a {
         display: flex;
