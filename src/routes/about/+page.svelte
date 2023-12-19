@@ -1,3 +1,4 @@
+<div class="container">
 <h1> About</h1>
 
 <p>
@@ -10,3 +11,18 @@
     
     So… time for everyone to introduce themselves!
 </p>
+</div>
+
+<style>
+    p{
+        text-align: center;
+    }
+
+    .container{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        max-width: 60%;
+
+    }
+</style>
